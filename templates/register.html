@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Register</h1>
+<form id="registerForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="text" id="fingerprint" placeholder="Fingerprint" required>
+  <button type="submit">Register</button>
+</form>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
